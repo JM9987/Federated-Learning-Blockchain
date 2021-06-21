@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\";\n\nexports.TextEncoder = typeof TextEncoder !== \"undefined\" ? TextEncoder : require(\"util\").TextEncoder;\nexports.TextDecoder = typeof TextDecoder !== \"undefined\" ? TextDecoder : require(\"util\").TextDecoder;","map":null,"metadata":{},"sourceType":"script"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"const globalThis = require(\"../globalThis\");\n\nmodule.exports = {\n  WebSocket: globalThis.WebSocket || globalThis.MozWebSocket,\n  usingBrowserWebSocket: true,\n  defaultBinaryType: \"arraybuffer\"\n};","map":null,"metadata":{},"sourceType":"script"}

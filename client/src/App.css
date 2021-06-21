@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #280034;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: lightsteelblue; */
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.searchTable{
+  /* width:70%; */
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.my_table{
+  background-color: #F4F4FF;
+}
+
+.rft-table thead th:hover {
+  background-color: #fd4c5a;
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.rft-table tbody tr:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: #fd4c5a;
+}
+
+:root{
+  /* --rft-main-color: #22EE22; */
+  --rft-main-color: #282890;
+  --rft-button-color: #7777FF;
+}
+
+.maincomp{
+  margin-left: 15px;
+  margin-right: 100px;
+}
+
+.titletext{
+  height: 80px;
+  font-size: 30px;
+  color: white;
+  position: fixed;
+  z-index: 9999;
+  margin-left: 100px;
+}
+
+.registerform{
+  background-color: #F4F4FF;
+  margin: 1% 30% 10% 30%;
+  /* height: 600px; */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 2;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:15px;
+}
+
+.buttonForm {
+  width: 100%;
+  background-color: #7777FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.buttonForm:hover {
+  background-color: #0000FF;
+}
+
+.buttonTable {
+  width: 100%;
+  background-color: #fd4c5a;
+  color: white;
+  padding: 7px 10px;
+  margin:  0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.buttonTable:hover {
+  background-color: #d43643;
+}
+
+.buttonFormToggle {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: auto;
+  background-color: #757575;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.loggedInAs{
+  height: 20px;
+  padding-top: 5px;
+  font-size: 25px;
+  color: white;
+  /* position: fixed; */
+  z-index: 9999;
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+.buttonFormToggle:hover {
+  background-color: #414141;
+
+}
+
+.textForm {
+  font-size:20px;
+}

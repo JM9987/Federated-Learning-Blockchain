@@ -1,0 +1,1 @@
+{"ast":null,"code":"module.exports.pick = (obj, ...attr) => {\n  return attr.reduce((acc, k) => {\n    if (obj.hasOwnProperty(k)) {\n      acc[k] = obj[k];\n    }\n\n    return acc;\n  }, {});\n};","map":null,"metadata":{},"sourceType":"script"}
